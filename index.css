@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight:500;
+}
+
+.main{
+     background-color: rgb(236, 236, 236);
+     height: 100vh;
+}
+
+.top{
+    /* padding-top: 5px; */
+    padding-top: 10px;
+    height: 55px;
+    background-color:white;
+}
+
+.one{
+
+    box-shadow: 2px -3px 8px 1px rgb(217, 221, 217);
+    text-align: center;
+    float: left;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+
+}
+
+.two{
+  box-sizing: border-box;
+}
+
+.div1{
+  margin-top: 5px;
+  padding:5px 0 5px 0;
+  margin-bottom: 19px;
+  padding: 2px;
+  cursor: pointer;
+  color: rgb(137, 162, 170);
+
+}
+
+.div1 p{
+
+    padding: 4px;
+}
+
+.div2 p{
+    padding: 4px;
+}
+
+.div3 p{
+    padding: 4px;
+}
+
+.div2{
+    margin-bottom: 19px;
+    padding:5px 0 5px 0;
+    cursor: pointer;
+    color: rgb(137, 162, 170);
+}
+
+.div3{
+    padding:5px 0 5px 0;
+    color: rgb(137, 162, 170);
+    margin-bottom: 19px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.one div:hover{
+  color: black;
+  background-color: white;
+}
+
+.secondDiv{
+
+  padding: 8px;
+  margin: auto;
+  width: 50%;
+  text-align: center; 
+
+
+}
+
+.secondDiv input{
+    color:black;
+     margin-bottom: 5px;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+.secondDiv p{
+    font-weight: bold;
+    color: black;
+}
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+.photo{
+
+    background-color: white;
+    height: 110px;
+    width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.photo p{
+    font-weight: bold;
+     color: black;
+    position: absolute;
+    left: 28%;
+    top: 25%;
+}
+
+.video{
+    margin-left: 86px;
+    margin-top: 6px;
+}
+.video span{
+    font-weight: bold;
+    color: rgb(137, 162, 170);
+}
